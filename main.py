@@ -1,10 +1,10 @@
-from product import Product
+from product import Articulo as Product
 from sortPrice import SortPrice
 from alphabetic import alphabetic
 
 productList = [Product('producto5', 19.50, 'A'), Product('producto4', 2.00, 'A'), Product('producto3', 4.67, 'A'), Product('producto2', 23.45, 'A'), Product('producto1', 45.00, 'A')]
 
-sortProducPrice = SortPrice()
+sortProducPrices = SortPrice()
 
 sortList1 = sortProducPrice.price(productList);
 

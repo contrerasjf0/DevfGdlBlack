@@ -1,5 +1,5 @@
 
-class Product(Object):
+class Product():
 	
 	def ___init__(self, nombre, costo, tipo):
 		self.nombre = nombre

@@ -6,9 +6,9 @@ productList = [Product('producto5', 19.50, 'A'), Product('producto4', 2.00, 'A')
 
 sortProducPrices = SortPrice()
 
-sortList1 = sortProducPrice.price(productList);
+sortList1 = sortProducPrices.price(productList);
 
-print('Order by price')
+print('Order price')
 for product in sortList1:
     print(product.nombre, product.costo)
 

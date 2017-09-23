@@ -8,14 +8,13 @@ sortProducPrices = SortPrice()
 
 sortList1 = sortProducPrices.price(productList);
 
-
-print('Order by uno')
+print('Orderbyuno')
 
 for product in sortList1:
     print(product.nombre, product.costo)
 
 sortList2 = alphabetic.sort(productList)
-print('Alphabetic order')
+print('Alphabeticorder')
 for product in sortList1:
     print(product.nombre, product.costo)
 

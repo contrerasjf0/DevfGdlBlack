@@ -9,13 +9,13 @@ sortProducPrice = SortPrice()
 sortList1 = sortProducPrice.price(productList);
 
 print('Order by price')
-
 for product in sortList1:
     print(product.nombre, product.costo)
 
 sortList2 = alphabetic.sort(productList)
+print('Alphabetic order')
 for product in sortList1:
-	print(sortList2)
+    print(product.nombre, product.costo)
 
 
 

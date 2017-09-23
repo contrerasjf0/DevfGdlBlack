@@ -8,7 +8,9 @@ sortProducPrices = SortPrice()
 
 sortList1 = sortProducPrices.price(productList);
 
-print('Order price')
+
+print('Order by uno')
+
 for product in sortList1:
     print(product.nombre, product.costo)
 
